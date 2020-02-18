@@ -43,11 +43,11 @@ def janitor(trash):
 
 
 
-print(janitor([1.01,
-1.01,
-1.01,
-1.01,
-1.01,
-1.01,
-1.01]))
+trash = []
+n = int(input())
+for i in range(n):
+    trash.append(float(input()))
+x = janitor(trash)
+print('%d' % x)
+
 
